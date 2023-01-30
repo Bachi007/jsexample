@@ -1,0 +1,46 @@
+Java Full Stack with Angular
+
+Core Java
+Java 8 features
+Collections
+MYSQL
+Advanced Java(sprint 1 project)
+Hibernate(Sprint 2 project)
+JUNIT 5(testing)
+Spring Core 
+Spring Boot(REST APIS)(Sprint 3 project)
+Spring Security
+
+Frontend
+HTML, CSS, Bootstrap, JavaScript=> Angular(sprint 4 project)
+
+sprint 5 project=> Angular + Spring boot
+ 1:30 to 2:00
+
+7pm to 9pm 
+
+Thursday =>Lab Day
+Friday => Assessment Day
+
+RAG report 
+
+
+75%
+
+
+maths 
+common sense
+
+
+java 17th
+postman
+spring tool suite
+maven 
+mysql server
+mysql workbench 
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        var result=false;
+
+
+        var mypromise= new Promise(function(res,rej){
+
+            if(result){
+                res("my promise got executed");
+            }
+            else{
+                rej("My promise got cheated")
+            }
+
+        })
+        .then((bs)=>{document.write(bs)})
+        .catch((bs)=>{document.write(bs)})
+
+
+    </script>
+
+
+</body>
+</html>

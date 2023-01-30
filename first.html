@@ -1,0 +1,24 @@
+<html>
+<head>
+</head>
+<body>
+<h1 id="myh1"></h1>
+<h1 id="myh2"></h1>
+
+<script>
+ 
+function display(user){
+
+document.getElementById("myh1").innerHTML="Hello "+user
+
+}
+function greet(username,mycallback){
+document.getElementById("myh2").innerHTML="Welcome to DRF"
+mycallback(username);
+}
+
+setTimeout(greet,3000,"bhaskar",display)
+
+</script>
+</body>
+</html>    

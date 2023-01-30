@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+var age=parseInt(prompt("Enter age"));
+
+let mypromise=new P	romise((resolve,reject)=>{
+
+	if(age>=18){resolve("you are allowed");}
+	else{reject("Error:Not allowed")}
+
+});
+mypromise.then(
+(value)=>{document.write(value)},
+(error)=>{document.write(error)})
+
+
+</script>
+
+</body>
+</html>
